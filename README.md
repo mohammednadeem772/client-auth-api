@@ -18,8 +18,44 @@ Ye project API authentication provide karta hai using **Client ID** aur **Client
 
 ## Setup
 
-1. Clone karo repository:
+1. repository:
 
-```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+  ```bash
+  git clone <your-repo-url>
+  cd <your-project-folder>
+
+2. Environment variables:
+
+  DB_USER=your_db_user
+  DB_PASSWORD=your_db_password
+  DB_HOST=localhost
+  DB_NAME=your_db_name
+  DB_PORT=5432
+  PORT=5000
+  IS_ROLE_PERMISSION=true
+
+
+3. Install dependencies:
+
+  ```bash
+  npm install
+
+
+4. Run migrations and seeders:
+
+  ```bash
+  npm run start
+  ```bash
+  npm run dev
+
+
+Authentication
+Every API request must include headers:
+x-client-id: your_client_id
+x-client-secret: your_client_secret
+
+
+
+
+
+
