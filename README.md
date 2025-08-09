@@ -2,17 +2,17 @@
 
 ## Overview
 
-Ye project API authentication provide karta hai using **Client ID** aur **Client Secret** ke zariye, jisme role-based permissions ke through different clients ko specific API access diya jata hai.
+This project provides API authentication using **Client ID** and **Client Secret**, with role-based permissions to grant specific API access to different clients.
 
 ---
 
 ## Features
 
-- Client authentication with clientId and clientSecret
+- Client authentication with Client ID and Client Secret
 - Role-based access control (RBAC) with permissions
 - CRUD operations on Products and Categories
-- Dynamic permission check on each API route
-- Seeders for initial clients, roles, permissions, products, categories
+- Dynamic permission checks for each API route
+- Seeders for initial clients, roles, permissions, products, and categories
 
 ---
 
